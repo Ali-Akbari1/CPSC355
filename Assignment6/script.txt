@@ -1,0 +1,1378 @@
+Script started on 2024-04-08 16:25:44-06:00 [TERM="xterm-256color" TTY="/dev/pts/112" COLUMNS="104" LINES="12"]
+
+Disk quotas for user ali.akbari1 (uid 33434738): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                   754M  10240M  10240M            8176    100k    100k        
+
+]0;ali.akbari1@csa1:~/CPSC355/Assignment6[?2004h[UC ali.akbari1@csa1 Assignment6] ./a.outgcc a6.s[8@m4 a6.asm >[C[C[C[C[C[2Pcd Assignment6m4 a6.asm > a6.s
+[?2004l]0;ali.akbari1@csa1:~/CPSC355/Assignment6[?2004h[UC ali.akbari1@csa1 Assignment6] m4 a6.asm > a6.s[9P./a.outgcc a6.s
+[?2004l]0;ali.akbari1@csa1:~/CPSC355/Assignment6[?2004h[UC ali.akbari1@csa1 Assignment6] gcc a6.s[8@m4 a6.asm >[C[C[C[C[C[9P./a.out[K[K[K[K[K[K[Kgdb a.out
+[?2004l[35;1mGNU gdb (GDB) Fedora Linux 13.2-6.fc38[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004l    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32ma.out[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <[32mhttps://debuginfod.fedoraproject.org/[m>
+[?2004hEnable debuginfod for this session? (y or [n]) y
+[?2004lDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+Downloading separate debug info for [32m/home/csusers/ali.akbari1/CPSC355/Assignment6/a.out[m
+[###                                                                                                 ]                                                                                                        (No debugging symbols found in [32ma.out[m)
+[?2004h(gdb) b main
+[?2004lBreakpoint 1 at [34m0x410208[m
+[?2004h(gdb) b calc
+[?2004lBreakpoint 2 at [34m0x4102b8[m
+[?2004h(gdb) display/i $pc
+[?2004l1: x/i $pc
+[2m<error: [m[2mNo registers.[m[2m>[m
+[?2004h(gdb) c
+[?2004lThe program is not being run.
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/ali.akbari1/CPSC355/Assignment6/a.out[m 
+Downloading separate debug info for [32msystem-supplied DSO at 0xfffff7ffb000[m
+[###                                                                                                 ]                                                                                                        Downloading separate debug info for [32m/lib64/libc.so.6[m
+[###                                                                                                 ][ ###                                                                                                ]                                                                                                        [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x0000000000410208[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410208[m <[33mmain[m+8>:	[32madrp[m	[31mx0[m, [34m0x410000[m <[33m_init[m>
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+Input:			e^x:			e^-x:
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+ 0.0000000000	    1.0000000000	 1.0000000000
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+ 0.1000000000	    1.1051709181	 0.9048374180
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+ 0.2000000000	    1.2214027582	 0.8187307531
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 0.3000000000	    1.3498588076	 0.7408182207
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 0.4000000000	    1.4918246976	 0.6703200460
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 0.5000000000	    1.6487212707	 0.6065306597
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 0.6000000000	    1.8221188004	 0.5488116361
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 0.7000000000	    2.0137527075	 0.4965853038
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 0.8000000000	    2.2255409285	 0.4493289641
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 0.9000000000	    2.4596031112	 0.4065696597
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.0000000000	    2.7182818285	 0.3678794412
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.1000000000	    3.0041660239	 0.3328710837
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.2000000000	    3.3201169227	 0.3011942119
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.3000000000	    3.6692966676	 0.2725317930
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.4000000000	    4.0551999668	 0.2465969639
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.5000000000	    4.4816890703	 0.2231301602
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.6000000000	    4.9530324244	 0.2018965180
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.7000000000	    5.4739473917	 0.1826835241
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.8000000000	    6.0496474644	 0.1652988882
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 1.9000000000	    6.6858944423	 0.1495686192
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.0000000000	    7.3890560989	 0.1353352832
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.1000000000	    8.1661699126	 0.1224564283
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.2000000000	    9.0250134994	 0.1108031584
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.3000000000	    9.9741824548	 0.1002588437
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.4000000000	   11.0231763806	 0.0907179533
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.5000000000	   12.1824939607	 0.0820849986
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.6000000000	   13.4637380350	 0.0742735782
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.7000000000	   14.8797317249	 0.0672055127
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.8000000000	   16.4446467711	 0.0608100626
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 2.9000000000	   18.1741453694	 0.0550232201
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.0000000000	   20.0855369232	 0.0497870684
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.1000000000	   22.1979512814	 0.0450492024
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.2000000000	   24.5325301971	 0.0407622040
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.3000000000	   27.1126389207	 0.0368831674
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.4000000000	   29.9641000474	 0.0333732700
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.5000000000	   33.1154519587	 0.0301973834
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.6000000000	   36.5982344437	 0.0273237225
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.7000000000	   40.4473043601	 0.0247235265
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.8000000000	   44.7011844933	 0.0223707719
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 3.9000000000	   49.4024491055	 0.0202419114
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.0000000000	   54.5981500331	 0.0183156389
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.1000000000	   60.3402875974	 0.0165726754
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.2000000000	   66.6863310409	 0.0149955768
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.3000000000	   73.6997936996	 0.0135685590
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.4000000000	   81.4508686650	 0.0122773399
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.5000000000	   90.0171313005	 0.0111089965
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.6000000000	   99.4843156419	 0.0100518357
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.7000000000	  109.9471724521	 0.0090952771
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.8000000000	  121.5104175187	 0.0082297471
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 4.9000000000	  134.2897796849	 0.0074465831
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.0000000000	  148.4131591026	 0.0067379470
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.1000000000	  164.0219072999	 0.0060967466
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.2000000000	  181.2722418751	 0.0055165644
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.3000000000	  200.3368099748	 0.0049915939
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.4000000000	  221.4064162042	 0.0045165809
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.5000000000	  244.6919322642	 0.0040867714
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.6000000000	  270.4264074261	 0.0036978637
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.7000000000	  298.8674009671	 0.0033459655
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.8000000000	  330.2995599096	 0.0030275547
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 5.9000000000	  365.0374678653	 0.0027394448
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.0000000000	  403.4287934927	 0.0024787522
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.1000000000	  445.8577700825	 0.0022428677
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.2000000000	  492.7490410932	 0.0020294306
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.3000000000	  544.5719101259	 0.0018363048
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.4000000000	  601.8450378721	 0.0016615573
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.5000000000	  665.1416330443	 0.0015034392
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.6000000000	  735.0951892420	 0.0013603680
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.7000000000	  812.4058251675	 0.0012309119
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.8000000000	  897.8472916504	 0.0011137752
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 6.9000000000	  992.2747156050	 0.0010077854
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.0000000000	 1096.6331584284	 0.0009118820
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.1000000000	 1211.9670744926	 0.0008251049
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.2000000000	 1339.4307643944	 0.0007465858
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.3000000000	 1480.2999275845	 0.0006755388
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.4000000000	 1635.9844299959	 0.0006112528
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.5000000000	 1808.0424144560	 0.0005530844
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.6000000000	 1998.1958951041	 0.0005004514
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.7000000000	 2208.3479918872	 0.0004528272
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.8000000000	 2440.6019776245	 0.0004097350
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 7.9000000000	 2697.2823282685	 0.0003707435
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.0000000000	 2980.9579870417	 0.0003354626
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.1000000000	 3294.4680752838	 0.0003035391
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.2000000000	 3640.9503073323	 0.0002746536
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.3000000000	 4023.8723938222	 0.0002485168
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.4000000000	 4447.0667476998	 0.0002248673
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.5000000000	 4914.7688402990	 0.0002034684
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.6000000000	 5431.6595913629	 0.0001841058
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.7000000000	 6002.9122172609	 0.0001665858
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.8000000000	 6634.2440062778	 0.0001507331
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 8.9000000000	 7331.9735391559	 0.0001363889
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.0000000000	 8103.0839275752	 0.0001234098
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.1000000000	 8955.2927034824	 0.0001116658
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.2000000000	 9897.1290587437	 0.0001010394
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.3000000000	10938.0192081650	 0.0000914242
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.4000000000	12088.3807302168	 0.0000827241
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.5000000000	13359.7268296616	 0.0000748518
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.6000000000	14764.7815655770	 0.0000677287
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.7000000000	16317.6071980151	 0.0000612835
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.8000000000	18033.7449278282	 0.0000554516
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+ 9.9000000000	19930.3704382299	 0.0000501747
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004102b8[m in [33mcalc[m ()
+1: x/i $pc
+=> [34m0x4102b8[m <[33mcalc[m+8>:	[32mfmov[m	[31md23[m, [31md0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+10.0000000000	22026.4657948063	 0.0000453999
+[Inferior 1 (process 3728925) exited normally]
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lThe program is not being run.
+[?2004h(gdb) exit
+[?2004l]0;ali.akbari1@csa1:~/CPSC355/Assignment6[?2004h[UC ali.akbari1@csa1 Assignment6] exit
+[?2004lexit
+
+Script done on 2024-04-08 16:29:04-06:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,31 @@
+Script started on 2024-03-29 00:54:40-06:00 [TERM="xterm-256color" TTY="/dev/pts/105" COLUMNS="94" LINES="17"]
+
+Disk quotas for user ali.akbari1 (uid 33434738): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                   572M  10240M  10240M            6541    100k    100k        
+
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] exit[K[K[K[K./a.out
+[?2004lusage: a5b mm dd
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a,[K.out 12 25
+[?2004lDecember 25th is Winter
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a.out 12 25[K[K[K[K[K10 30
+[?2004lOctober 30th is Fall
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a.out 10 30[K[K[K[K[K8 20
+[?2004lAugust 20th is Summer
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a.out 8 20[K[K[K[K3 21
+[?2004lMarch 21st is Spring
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a.out 3 21[K0
+[?2004lMarch 20th is Winter
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a.out 3 20[K[K[K[K0 20
+[?2004lusage: a5b mm dd
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a.out 0 20[K[K[K[K13 20
+[?2004lusage: a5b mm dd
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a.out 13 20[K[K[K[K[K21[K[K12 0
+[?2004lusage: a5b mm dd
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] ./a.out 12 0[K32
+[?2004lusage: a5b mm dd
+]0;ali.akbari1@csa1:~/CPSC355/Assignment5[?2004h[UC ali.akbari1@csa1 Assignment5] exit
+[?2004lexit
+
+Script done on 2024-03-29 00:55:59-06:00 [COMMAND_EXIT_CODE="17"]

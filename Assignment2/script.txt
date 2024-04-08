@@ -1,0 +1,119 @@
+Script started on 2024-02-09 17:42:06-07:00 [TERM="xterm-256color" TTY="/dev/pts/93" COLUMNS="163" LINES="12"]
+
+Disk quotas for user ali.akbari1 (uid 33434738): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                   547M  10240M  10240M            6284    100k    100k        
+
+]0;ali.akbari1@csa2:~/CPSC355/Assignment2[?2004h[UC ali.akbari1@csa2 Assignment2] gdb a.out
+[?2004l[35;1mGNU gdb (GDB) Fedora Linux 13.2-6.fc38[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004l    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32ma.out[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <[32mhttps://debuginfod.fedoraproject.org/[m>
+[?2004hEnable debuginfod for this session? (y or [n]) y
+[?2004lDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+                                                                                                                                                                   (No debugging symbols found in [32ma.out[m)
+[?2004h(gdb) b main
+[?2004lBreakpoint 1 at [34m0x410230[m
+[?2004h(gdb) display.[K/i $cp[K[Kpc
+[?2004l1: x/i $pc
+[2m<error: [m[2mNo registers.[m[2m>[m
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/ali.akbari1/CPSC355/Assignment2/a.out[m 
+                                                                                                                                                                                                                                                                                                                                      [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x0000000000410230[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410230[m <[33mmain[m+8>:	[32mmov[m	[31mw20[m, [34m#0xfefefefe            [m[37;2m	// #-16843010[m
+[?2004h[?2004l[?2004h(gdb) ni
+[?2004l[34m0x0000000000410234[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410234[m <[33mmain[m+12>:	[32mmov[m	[31mw19[m, [34m#0x46                  [m[37;2m	// #70[m
+[?2004h[?2004l[?2004h(gdb) ni
+[?2004l[34m0x0000000000410238[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410238[m <[33mmain[m+16>:	[32mmov[m	[31mw21[m, [34m#0x0                   [m[37;2m	// #0[m
+[?2004h[?2004l[?2004h(gdb) p $w19
+[?2004l$1 = 70
+[?2004h(gdb) p $w20
+[?2004l$2 = 4278124286
+[?2004h(gdb) ni
+[?2004l[34m0x000000000041023c[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x41023c[m <[33mmain[m+20>:	[32mmov[m	[31mw22[m, [34m#0x0                   [m[37;2m	// #0[m
+[?2004h[?2004l[?2004h(gdb) ni
+[?2004l[34m0x0000000000410240[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410240[m <[33mmain[m+24>:	[32madrp[m	[31mx0[m, [34m0x410000[m <[33m_init[m>
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x0000000000410244[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410244[m <[33mmain[m+28>:	[32madd[m	[31mx0[m, [31mx0[m, [34m#0x1a8[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x0000000000410248[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410248[m <[33mmain[m+32>:	[32mmov[m	[31mw1[m, [31mw19[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x000000000041024c[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x41024c[m <[33mmain[m+36>:	[32mmov[m	[31mw2[m, [31mw19[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x0000000000410250[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410250[m <[33mmain[m+40>:	[32mmov[m	[31mw3[m, [31mw20[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x0000000000410254[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410254[m <[33mmain[m+44>:	[32mmov[m	[31mw4[m, [31mw20[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x0000000000410258[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410258[m <[33mmain[m+48>:	[32mbl[m	[34m0x410070[m <[33mprintf@plt[m>
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l
+multiplier = 0x00000046 (70) multiplicand = 0xfefefefe (-16843010)
+
+[34m0x000000000041025c[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x41025c[m <[33mmain[m+52>:	[32mcmp[m	[31mw19[m, [34m#0x0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x0000000000410260[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410260[m <[33mmain[m+56>:	[32mb.lt[m	[34m0x41026c[m <[33mnext[m>[37;2m  // b.tstop[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x0000000000410264[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410264[m <[33mmain[m+60>:	[32mmov[m	[31mw23[m, [34m#0x0                   [m[37;2m	// #0[m
+[?2004h[?2004l[?2004h(gdb) 
+[?2004l[34m0x0000000000410268[m in [33mmain[m ()
+1: x/i $pc
+=> [34m0x410268[m <[33mmain[m+64>:	[32mb[m	[34m0x4102b0[m <[33mtest[m>
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lproduct = 0xffffffff multiplier = 0xb9b9b974
+
+64-bit result = 0xffffffffb9b9b974 (-1179010700)
+
+[Inferior 1 (process 1029630) exited with code 062]
+[?2004h[?2004l[?2004h(gdb) q
+[?2004l]0;ali.akbari1@csa2:~/CPSC355/Assignment2[?2004h[UC ali.akbari1@csa2 Assignment2] exit
+[?2004lexit
+
+Script done on 2024-02-09 17:42:50-07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,118 @@
+Script started on 2024-03-15 17:22:53-06:00 [TERM="xterm-256color" TTY="/dev/pts/35" COLUMNS="86" LINES="17"]
+
+Disk quotas for user ali.akbari1 (uid 33434738): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                   563M  10240M  10240M            6395    100k    100k        
+
+]0;ali.akbari1@csa2:~/CPSC355/Assignment4[?2004h[UC ali.akbari1@csa2 Assignment4] gdb a.out
+[?2004l[35;1mGNU gdb (GDB) Fedora Linux 13.2-6.fc38[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32ma.out[m...
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--v[Kc
+[?2004l
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <[32mhttps://debuginfod.fedoraproject.org/[m>
+[?2004hEnable debuginfod for this session? (y or [n]) y
+[?2004lDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+                                                                                      (No debugging symbols found in [32ma.out[m)
+[?2004h(gdb) b main
+[?2004lBreakpoint 1 at [34m0x410250[m
+[?2004h(gdb) b printCuboid 
+[?2004lBreakpoint 2 at [34m0x4103c0[m
+[?2004h(gdb) b scale 
+[?2004lBreakpoint 3 at [34m0x410374[m
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/ali.akbari1/CPSC355/Assignment4/a.out[m 
+                                                                                                                                                                            [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x0000000000410250[m in [33mmain[m ()
+[?2004h[?2004l[?2004h(gdb) r
+[?2004l[?2004hThe program being debugged has been started already.
+Start it from the beginning? (y or n) y
+[?2004lStarting program: [32m/home/csusers/ali.akbari1/CPSC355/Assignment4/a.out[m 
+                                                                                                                                                                            [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x0000000000410250[m in [33mmain[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+Initial cuboid values:
+
+Breakpoint 2, [34m0x00000000004103c0[m in [33mprintCuboid[m ()
+[?2004h[?2004l[?2004h(gdb) crb scale [6@printCuboid[C[C[C[C[C[C[C[C[C[8Pmain[K[K[K[K[K[K[7mx/6d $x8[27m[C[C[C[C[C[Cx/6d $x8
+[?2004l[34m0xffffffffed80[m:	0	0	2	2
+[34m0xffffffffed90[m:	3	12
+[?2004h(gdb) c
+[?2004lContinuing.
+Cuboid first origin = (0, 0)
+	Base width = 2 Base length = 2
+	Height = 3
+	Volume = 12
+
+
+Breakpoint 2, [34m0x00000000004103c0[m in [33mprintCuboid[m ()
+[?2004h[?2004l[?2004h(gdb) cx/6d $x8
+[?2004l[34m0xffffffffed98[m:	0	0	2	2
+[34m0xffffffffeda8[m:	3	12
+[?2004h(gdb) x/6d $x8[C[C[C[C[C[Cc[K
+[?2004lContinuing.
+Cuboid second origin = (0, 0)
+	Base width = 2 Base length = 2
+	Height = 3
+	Volume = 12
+
+
+Breakpoint 3, [34m0x0000000000410374[m in [33mscale[m ()
+[?2004h[?2004l[?2004h(gdb) cx/6d $x8
+[?2004l[34m0xffffffffed80[m:	3	-6	2	2
+[34m0xffffffffed90[m:	3	12
+[?2004h(gdb) x/6d $x8[C[C[C[C[C[Cc[K
+[?2004lContinuing.
+
+Changed cuboid values:
+
+Breakpoint 2, [34m0x00000000004103c0[m in [33mprintCuboid[m ()
+[?2004h[?2004l[?2004h(gdb) cx/6d $x8
+[?2004l[34m0xffffffffed80[m:	3	-6	2	2
+[34m0xffffffffed90[m:	3	12
+[?2004h(gdb) x/6d $x8[C[C[C[C[C[Cc[K
+[?2004lContinuing.
+Cuboid first origin = (3, -6)
+	Base width = 2 Base length = 2
+	Height = 3
+	Volume = 12
+
+
+Breakpoint 2, [34m0x00000000004103c0[m in [33mprintCuboid[m ()
+[?2004h[?2004l[?2004h(gdb) cx/6d $x8
+[?2004l[34m0xffffffffed98[m:	0	0	8	8
+[34m0xffffffffeda8[m:	12	768
+[?2004h(gdb) x/6d $x8[C[C[C[C[C[Cc[K
+[?2004lContinuing.
+Cuboid second origin = (0, 0)
+	Base width = 8 Base length = 8
+	Height = 12
+	Volume = 768
+
+[Inferior 1 (process 2887520) exited with code 017]
+[?2004h[?2004l[?2004h(gdb) q
+[?2004l]0;ali.akbari1@csa2:~/CPSC355/Assignment4[?2004h[UC ali.akbari1@csa2 Assignment4] exit 
+[?2004lexit
+
+Script done on 2024-03-15 17:23:59-06:00 [COMMAND_EXIT_CODE="0"]

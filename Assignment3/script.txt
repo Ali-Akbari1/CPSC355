@@ -1,0 +1,676 @@
+Script started on 2024-02-27 20:45:55-07:00 [TERM="xterm-256color" TTY="/dev/pts/29" COLUMNS="55" LINES="18"]
+
+Disk quotas for user ali.akbari1 (uid 33434738): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                   421M  10240M  10240M            6306    100k    100k        
+
+]0;ali.akbari1@csa2:~/CPSC355/Assignment3[?2004h[UC ali.akbari1@csa2 Assignment3] gdb a.out
+[?2004l[35;1mGNU gdb (GDB) Fedora Linux 13.2-6.fc38[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "help".
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lType "apropos word" to search for commands related to "word"...
+Reading symbols from [32ma.out[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <[32mhttps://debuginfod.fedoraproject.org/[m>
+[?2004hEnable debuginfod for this session? (y or [n]) y
+[?2004lDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+                                                       (No debugging symbols found in [32ma.out[m)
+[?2004h(gdb) b top1[K
+[?2004lBreakpoint 1 at [34m0x410228[m
+[?2004h(gdb) b top1
+[?2004lBreakpoint 2 at [34m0x410318[m
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/ali.akbari1/CPSC355/Assignment3/a.out[m 
+                                                                                                              [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+v[0]: 103
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[1]: 198
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[2]: 105
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[3]: 115
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[4]: 81
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[5]: 255
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[6]: 74
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[7]: 236
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[8]: 41
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[9]: 205
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[10]: 186
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[11]: 171
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[12]: 242
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[13]: 251
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[14]: 227
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[15]: 70
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[16]: 124
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[17]: 194
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[18]: 84
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[19]: 248
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[20]: 27
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[21]: 232
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[22]: 231
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[23]: 141
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[24]: 118
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[25]: 90
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[26]: 46
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[27]: 99
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[28]: 51
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[29]: 159
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[30]: 201
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[31]: 154
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[32]: 102
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[33]: 50
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[34]: 13
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[35]: 183
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[36]: 49
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[37]: 88
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[38]: 163
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[39]: 90
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[40]: 37
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[41]: 93
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[42]: 5
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[43]: 23
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[44]: 88
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[45]: 233
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[46]: 94
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[47]: 212
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) x/50d $fp+24
+[?2004l[34m0xffffffffecc8[m:	103	198	105	115
+[34m0xffffffffecd8[m:	81	255	74	236
+[34m0xffffffffece8[m:	41	205	186	171
+[34m0xffffffffecf8[m:	242	251	227	70
+[34m0xffffffffed08[m:	124	194	84	248
+[34m0xffffffffed18[m:	27	232	231	141
+[34m0xffffffffed28[m:	118	90	46	99
+[34m0xffffffffed38[m:	51	159	201	154
+[34m0xffffffffed48[m:	102	50	13	183
+[34m0xffffffffed58[m:	49	88	163	90
+[34m0xffffffffed68[m:	37	93	5	23
+[34m0xffffffffed78[m:	88	233	94	212
+[34m0xffffffffed88[m:	0	0
+[?2004h(gdb) c
+[?2004lContinuing.
+
+v[48]: 171
+
+Breakpoint 1, [34m0x0000000000410228[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+v[49]: 178
+
+Sorted Array:
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) cx/50d $fp+24
+[?2004l[34m0xffffffffecc8[m:	5	13	23	27
+[34m0xffffffffecd8[m:	37	41	46	49
+[34m0xffffffffece8[m:	50	51	70	74
+[34m0xffffffffecf8[m:	81	84	88	88
+[34m0xffffffffed08[m:	90	90	93	94
+[34m0xffffffffed18[m:	99	102	103	105
+[34m0xffffffffed28[m:	115	118	124	141
+[34m0xffffffffed38[m:	154	159	163	171
+[34m0xffffffffed48[m:	171	178	183	186
+[34m0xffffffffed58[m:	194	198	201	205
+[34m0xffffffffed68[m:	212	227	231	232
+[34m0xffffffffed78[m:	233	236	242	248
+[34m0xffffffffed88[m:	251	255
+[?2004h(gdb) c
+[?2004lContinuing.
+
+v[0]: 5
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[1]: 13
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[2]: 23
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[3]: 27
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[4]: 37
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[5]: 41
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[6]: 46
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[7]: 49
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[8]: 50
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[9]: 51
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[10]: 70
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[11]: 74
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[12]: 81
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[13]: 84
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[14]: 88
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[15]: 88
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[16]: 90
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[17]: 90
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[18]: 93
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[19]: 94
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[20]: 99
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[21]: 102
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[22]: 103
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[23]: 105
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[24]: 115
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[25]: 118
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[26]: 124
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[27]: 141
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[28]: 154
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[29]: 159
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[30]: 163
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[31]: 171
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[32]: 171
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[33]: 178
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[34]: 183
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[35]: 186
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[36]: 194
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[37]: 198
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[38]: 201
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[39]: 205
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[40]: 212
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[41]: 227
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[42]: 231
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[43]: 232
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[44]: 233
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[45]: 236
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[46]: 242
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[47]: 248
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[48]: 251
+
+Breakpoint 2, [34m0x0000000000410318[m in [33mtop1[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+
+v[49]: 255
+[Inferior 1 (process 4134181) exited with code 014]
+[?2004h[?2004l[?2004h(gdb) exit
+[?2004l]0;ali.akbari1@csa2:~/CPSC355/Assignment3[?2004h[UC ali.akbari1@csa2 Assignment3] exit
+[?2004lexit
+
+Script done on 2024-02-27 20:47:08-07:00 [COMMAND_EXIT_CODE="0"]
